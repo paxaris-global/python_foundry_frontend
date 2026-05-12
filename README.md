@@ -9,4 +9,4 @@ npm ci
 npm start
 ```
 
-Configure API routing via `proxy.conf.json` for local use.
+Configure API routing via `proxy.conf.json` for local uses.
