@@ -5,7 +5,7 @@
     "ng": "ng",
     "fix-bin": "[ -L node_modules/.bin/ng ] || (rm -rf node_modules/.bin && npm rebuild)",
     "prestart": "npm run fix-bin",
-    "start": "ng serve",
+    "start": "ng serve --port 4201",
     "prebuild": "npm run fix-bin",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",

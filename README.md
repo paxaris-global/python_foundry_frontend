@@ -9,4 +9,4 @@ npm ci
 npm start
 ```
 
-Configure API routing via `proxy.conf.json` for local use.
+The dev server uses `http://localhost:4201` to avoid colliding with Paxo's main frontend on `4200`. Configure API routing via `proxy.conf.json` for local use.
